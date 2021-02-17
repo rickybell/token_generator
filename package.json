@@ -1,0 +1,30 @@
+{
+  "name": "token_generator",
+  "version": "1.0.0",
+  "description": "A small server-api to generate the chat token.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickybell/token_generator.git"
+  },
+  "author": "Ricky Bell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rickybell/token_generator/issues"
+  },
+  "homepage": "https://github.com/rickybell/token_generator#readme",
+  "devDependencies": {
+    "agora-access-token": "^2.0.4",
+    "agora-rtm-sdk": "^1.4.1-201",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
